@@ -1,5 +1,7 @@
 import { MessageCircle } from 'lucide-react';
 import { motion } from 'motion/react';
+import { FaWhatsapp } from 'react-icons/fa'; // Font Awesome
+import { BsWhatsapp } from 'react-icons/bs'; // Bootstrap Icons
 
 export default function WhatsAppButton() {
   const phoneNumber = "22900000000"; // Placeholder, replace with real one
@@ -20,7 +22,9 @@ export default function WhatsAppButton() {
         animate={{ scale: [1, 1.1, 1] }}
         transition={{ repeat: Infinity, duration: 2 }}
       >
-        <MessageCircle size={28} />
+        {/* <MessageCircle size={28} /> */}
+        {/* <BsWhatsapp size={30} color="#25D366" /> */}
+        <img className="w-8" src="/images/whatsapp.svg" alt="Chat on WhatsApp" />
       </motion.div>
       <span className="absolute -top-1 -right-1 flex h-3 w-3">
         <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
