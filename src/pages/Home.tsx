@@ -176,7 +176,7 @@ export default function Home() {
       {/* CTA Section */}
       <section className="py-24 bg-brand-bg relative">
         <div className="container mx-auto px-8 text-center">
-          <div className="max-w-4xl mx-auto bg-white p-12 lg:p-20 rounded-[3rem] shadow-xl relative z-10 border border-gray-100 overflow-hidden">
+          <div className="max-w-4xl mx-auto bg-white p-4 lg:p-20 rounded-[3rem] shadow-xl relative z-10 border border-gray-100 overflow-hidden">
             <div className="absolute top-0 left-0 w-full h-2 bg-brand-red"></div>
             <h2 className="text-4xl md:text-5xl font-bold text-brand-dark mb-8 tracking-tight">Inscrivez-vous dès aujourd'hui</h2>
             <p className="text-gray-600 text-lg mb-12 max-w-2xl mx-auto">
