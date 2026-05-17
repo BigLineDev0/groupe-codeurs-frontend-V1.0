@@ -1,3 +1,5 @@
+import { Award, Code2, Database, HandHeart, Lightbulb, PenTool, ShieldCheck } from "lucide-react";
+
 export const COURSES = [
   {
     id: 'bureautique',
@@ -34,23 +36,90 @@ export const COURSES = [
   }
 ];
 
+
+export const FORMATIONS = [
+  {
+    icon: PenTool,
+    title: "UX/UI Design & Figma",
+    desc: "Maîtrisez la conception d'interfaces modernes centrées utilisateur.",
+    duration: "12 Semaines",
+    level: "Intermédiaire",
+    featured: false,
+  },
+
+  {
+    icon: Code2,
+    title: "Développement Web Full-Stack",
+    desc: "Devenez développeur React, Node.js et bases de données modernes.",
+    duration: "24 Semaines",
+    level: "Débutant à Pro",
+    featured: true,
+  },
+
+  {
+    icon: Database,
+    title: "Data Science & IA",
+    desc: "Apprenez Python, Machine Learning et analyse de données.",
+    duration: "20 Semaines",
+    level: "Avancé",
+    featured: false,
+  },
+];
+
 export const TESTIMONIALS = [
   {
     id: 1,
-    name: 'Sarah M.',
+    name: 'Binetou Diouf',
     text: "Grâce à Groupe Codeurs, j'ai appris la bureautique et j'ai pu obtenir un emploi dans une entreprise.",
     role: 'Apprenante en Bureautique'
   },
   {
     id: 2,
-    name: 'Jean-Marc D.',
+    name: 'Moussa Sy.',
     text: "La formation en infographie m'a permis de créer mes propres designs et de travailler en freelance.",
     role: 'Apprenant en Infographie'
   },
   {
     id: 3,
-    name: 'Koffi A.',
+    name: 'Fatou Ndiaye',
     text: "J'ai appris le développement web et je peux maintenant créer des sites internet.",
     role: 'Apprenant en Dév Web'
   }
 ];
+
+export const VALUES = [
+  {
+    icon: Award,
+    title: "Excellence",
+    desc: "Nous visons la perfection dans chaque module de formation et chaque projet étudiant.",
+    color: "text-brand-red",
+    bg: "bg-red-50",
+  },
+
+  {
+    icon: Lightbulb,
+    title: "Innovation",
+    desc: "L'agilité est dans notre ADN. Nous adaptons nos programmes aux dernières tendances du marché.",
+    color: "text-brand-blue",
+    bg: "bg-blue-50",
+  },
+
+  {
+    icon: ShieldCheck,
+    title: "Intégrité",
+    desc: "Transparence et honnêteté sont les piliers de notre relation avec nos étudiants.",
+    color: "text-green-500",
+    bg: "bg-green-50",
+  },
+
+  {
+    icon: HandHeart,
+    title: "Engagement",
+    desc: "Nous accompagnons chaque talent jusqu'à son succès professionnel.",
+    color: "text-orange-500",
+    bg: "bg-orange-50",
+  },
+];
+
+
+
